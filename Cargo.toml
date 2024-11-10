@@ -12,3 +12,4 @@ actix-web = "4" # Web framework
 dotenv = "0.15" # Environment variable management
 env_logger = "0.11.4"
 log = "0.4"
+regex = "1" 
