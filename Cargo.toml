@@ -1,0 +1,13 @@
+[package]
+name = "rust_mysql_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] } # Asynchronous runtime
+sqlx = { version = "0.6", features = ["mysql", "runtime-tokio-native-tls"] } # MySQL async support
+serde = { version = "1.0", features = ["derive"] } # JSON serialization/deserialization
+serde_json = "1.0" # JSON parsing
+actix-web = "4" # Web framework
+dotenv = "0.15" # Environment variable management
+
